@@ -3,8 +3,8 @@ import styles from '../styles/Actualites.module.css'
 import React from 'react'
 
 import jujutsu from "../assets/images/jujutsu-kaisen.jpeg"
-import collection from '../assets/images/manga-collection.jpg'
 import attack from '../assets/images/snk.jpg'
+import collecbandeau from '../assets/images/mangacollec.png'
 
 
 
@@ -20,7 +20,7 @@ function Actualites() {
 
   {
     titre: "Les actus manga du mois de Novembre 2023 ! 🤩",
-    img: collection,
+    img: collecbandeau,
     paragraphe: "Découvrez juste ici les actus mangas du mois !",
     date: "| 29 octobre 2023",
   },
