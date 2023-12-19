@@ -6,16 +6,37 @@ body {
 .background {
     text-align: center;
     padding: 1rem;
-    background: var(--color-background);
 }
 
-.background > h1 {
+.backgroundImage {
+    height: 350px;
+    width: 500px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    opacity: 0.4;
+  }
+
+.content {
+    position: relative;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 1px;
+    border-radius: 20px;
+  }
+
+.content > h1 {
     justify-content: center;
     color: var(--color-white);
     padding: 1rem;
-}
+    margin-bottom: 10px;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 10px;
+  }
 
-.background > p {
+.content > p {
     padding: 1rem;
     color: var(--color-white)
 }
@@ -29,3 +50,4 @@ body {
     font-weight: 400;
     border-style: none;
 }
+

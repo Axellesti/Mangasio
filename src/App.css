@@ -4,3 +4,7 @@
 --color-black : #000;
 --color-red-petillant : #DC0044;
 }
+
+body {
+max-width: 500px;
+}
