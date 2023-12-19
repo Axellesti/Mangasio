@@ -1,6 +1,7 @@
 import './App.css'
 import Bandeau from './components/Bandeau'
 import Actualites from './components/Actualites'
+import Footer from './components/Footer'
 
 function App() {
 
@@ -8,6 +9,7 @@ function App() {
     <div>
       <Bandeau />
       <Actualites />
+      <Footer />
       </div>
   )
 }
